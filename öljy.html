@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebOhj</title>
     <style>
-        
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -121,16 +120,8 @@
         </p>
     </div>
 
-    <div class="footer">
-        <form onsubmit="return confirm('Haluatko lähettää lomakkeen?');">
-            <label for="name">Nimi:</label><br>
-            <input type="text" id="name"><br>
-            <label for="spos">Sähköposti:</label><br>
-            <input type="text" id="spos"><br><br>
-            <input type="submit" value="Submit">
-        </form>
-    </div>
-    
+   
+
     <form onsubmit="return validate(this);">
         <div class="footer">
             <p>Yhteystiedot:<br>
