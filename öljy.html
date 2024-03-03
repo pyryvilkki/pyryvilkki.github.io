@@ -45,11 +45,7 @@
             text-decoration: none;
         }
 
-        img {
-            width: 1000px;
-            height: 800px;
-            object-fit: fill;
-        }
+        
 
         a:hover {
             color: red;
@@ -69,6 +65,12 @@
             justify-content: left
         }
 
+        .responsive {
+            width: 100%;
+            max-width: 1500px;
+            height: auto;
+            object-fit: fill;
+        }
 
         /* Responsive CSS */
         @media only screen and (max-width: 600px) {
@@ -139,8 +141,8 @@
 
                 </p>
             </div>
-            <div class="image">
-                <img src="https://i.imgur.com/fAec0Nol.jpg" alt="Öljypohja">
+            <div class="responsive">
+                <img src="https://i.imgur.com/fAec0Nol.jpg" alt="Öljypohja" class="responsive">
             </div>
         </div>
         Muista, että nämä ohjeet ovat yleisluonteisia, ja on tärkeää tarkistaa moottoripyörän
